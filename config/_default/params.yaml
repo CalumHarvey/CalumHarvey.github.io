@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: dark
-  color: blue
+  color: sky
 
 # SEO
 marketing:
@@ -34,7 +34,7 @@ header:
     align: "center"
     fixed_to_top: true
     show_search: false
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo:
       text: "Calum Harvey"
 
