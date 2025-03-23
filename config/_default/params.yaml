@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: emerald
+  mode: dark
+  color: blue
 
 # SEO
 marketing:
@@ -30,9 +30,10 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "navbar"
+    blox: "navbar-simple"
+    align: "center"
     fixed_to_top: true
-    show_search: true
+    show_search: false
     show_theme_chooser: true
     logo:
       text: "Calum Harvey"
