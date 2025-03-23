@@ -1,13 +1,12 @@
 ---
-title: "An example journal article"
+title: "Data-Driven Erbium-Doped Fiber Amplifier Gain Modeling Using Gaussian Process Regression"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- Md. Saifuddin Faruk
+- Seb J. Savory
+
+date: "2024-08-09T00:00:00Z"
+doi: "10.1109/LPT.2024.3441110"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -18,23 +17,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*IEEE Photonics Technology Letters*(1)"
+publication_short: "PTL"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We propose a data-driven erbium-doped fiber amplifier (EDFA) gain model utilizing Gaussian process regression (GPR). An additive Laplacian and radial-basis function kernel is proposed for the GPR and was found to outperform deep neural network (DNN) methods while additionally providing prediction uncertainty. Performance is measured using mean absolute error (MAE) averaged across five different EDFAs with three manufacturers. The GPR achieves an MAE of 0.1 dB using 30 training samples in contrast to the DNN that achieves an MAE of 0.25 dB using 3000 training samples. Additionally, we demonstrate that active learning can be used to improve robustness and repeatability of convergence.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+# - Source Themes
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10632168
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
