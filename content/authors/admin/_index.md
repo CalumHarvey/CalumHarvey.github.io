@@ -52,92 +52,96 @@ interests:
   - Uncertainty Quantification
 
 education:
-  # - area: PhD Artificial Intelligence
-  #   institution: Stanford University
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-  #   button:
-  #     text: 'Read Thesis'
-  #     url: 'https://example.com'
-  - area: MSc Data Analytics
-    institution: University of Warwick
-    date_start: 2020-09-01
-    date_end: 2021-09-01
+  - area: PhD Electrical Engineering
+    institution: University of Cambridge
+    date_start: 2022-10-01
+    date_end: ''
     summary: |
-      Thesis: Non-uniform influence maximisation in social networks
+      Joint funded by EPSRC ICASE and Microsoft Research UK.
 
       Courses included:
-      - Nature Language Processing
+      - Computational Statistics and Machine Learning
+      - Fibre Optic Communication
+  - area: MSc Data Science
+    institution: University of Warwick
+    date_start: 2020-10-01
+    date_end: 2021-10-01
+    summary: |
+      Dissertation: Developed new AI algorithm for maximising influence spread in non-uniform large-scale social networks.
+
+      Courses included:
+      - Data Mining
       - Algorithmic Game Theory
-      - Machine Learning
-  - area: BSc Computer Science
+      - Natural Language Processing
+  - area: BSc (Hons) Computer Science
     institution: Newcastle University
     date_start: 2017-09-01
-    date_end: 2020-07-01
+    date_end: 2020-06-01
     summary: |
-      Courses included:
-      - Fault Tolerance
-      - Real-Time systems
-      - Network Security
+      Dissertation: AI algorithm implementation and performance comparison in Python using data science libraries and MySQL.
 work:
+  - position: Research Intern
+    company_name: Microsoft Azure Fibre
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-07-01
+    date_end: '2025-12-01'
+    summary: |2-
+      - Developed probabilistic ML models for hollow-core fibre links using PyTorch and GPyTorch, improving robustness and interpretability under real-world noise
+      - Collaborated with senior researchers to refine production modelling frameworks for field deployment
+      - Designed and validated data-driven models that outperformed traditional physics-based baselines on noisy optical measurements
+  - position: Treasurer
+    company_name: Cambridge University Squash Club
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-07-01
+    date_end: '2025-05-01'
+    summary: |2-
+      - Managed a £20k+ annual budget and built automated financial-tracking tools, ensuring accurate, transparent operations for a 150-member university sports club
   - position: Data Engineer
     company_name: Kainos
     company_url: 'https://www.kainos.com/'
     company_logo: ''
-    date_start: 2021-10-01
+    date_start: 2021-08-01
     date_end: '2022-09-01'
     summary: |2-
-      Responsibilities included:
-      - Designed and maintained ETL data pipelines for government digital services
-      - Worked with cloud infrastructure (AWS) and tooling in an Agile delivery team
-      - Collaborated with cross-functional teams to deliver data products to production
-  # - position: Backend Software Engineer
-  #   company_name: X
-  #   company_url: ''
-  #   company_logo: ''
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Responsibilities include:
-  #     - Migrated infrastructure to a new data center
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Carried out projects utilising both Azure and AWS cloud platforms for public sector organisations
+      - Developed automated infrastructure deployment framework using Terraform
+      - Implemented production machine learning model tracking utilising Databricks with MLflow
 
 skills:
-  - name: Technical Skills
+  - name: Machine Learning
     items:
       - name: Python
-        description: ''
+        description: 'PyTorch, GPyTorch, NumPy, Pandas, SciPy, Optuna'
         percent: 95
         icon: code-bracket
       - name: Gaussian Processes
-        description: 'GPyTorch / GPflow'
+        description: 'Bayesian optimisation, uncertainty quantification'
         percent: 90
         icon: chart-bar
-      - name: PyTorch
-        description: ''
-        percent: 75
+      - name: Deep Learning
+        description: 'Signal processing, large-scale data'
+        percent: 80
         icon: cpu-chip
-      - name: MATLAB
-        description: ''
-        percent: 70
-        icon: calculator
+      - name: SQL & Data Engineering
+        description: 'Spark, Databricks, MLflow'
+        percent: 75
+        icon: circle-stack
   - name: Tools & Platforms
     items:
-      - name: Git / GitHub
+      - name: Git / Docker
         description: ''
         percent: 90
         icon: code-bracket
+      - name: Azure / AWS
+        description: 'Terraform, cloud infrastructure'
+        percent: 80
+        icon: cloud
       - name: LaTeX
         description: ''
         percent: 85
         icon: document-text
-      - name: Linux / HPC
-        description: ''
-        percent: 75
-        icon: command-line
 
 # languages:
 #   - name: English
