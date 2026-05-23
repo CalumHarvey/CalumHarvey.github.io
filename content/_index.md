@@ -103,6 +103,18 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      date_format: Jan 2006
+      is_education_first: false
+  - block: resume-skills
+    content:
+      username: admin
+      title: Skills
+    design:
+      show_skill_percentage: false
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
