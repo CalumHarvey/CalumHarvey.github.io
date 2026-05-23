@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:opg.optica.org)",
+      "WebFetch(domain:www.repository.cam.ac.uk)"
+    ]
+  }
+}

@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'ch982@cam.ac.uk'
+    url: 'mailto:ch982@cam.ac.uk'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
@@ -43,8 +43,8 @@ profiles:
     url: https://www.linkedin.com/in/calumbgharvey/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=tuchcs4AAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/YOUR-ORCID-ID
 
 interests:
   - Optical Communication

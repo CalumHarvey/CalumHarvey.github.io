@@ -35,11 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a PhD student in the Photonics Systems Group at the University of Cambridge, supervised by Prof. Seb J. Savory. My research focuses on applying probabilistic machine learning methods — in particular Gaussian process regression and Bayesian inference — to optical fibre communication systems.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        Current themes include data-driven modelling of erbium-doped fibre amplifiers (EDFAs), uncertainty quantification in cascaded optical link predictions, and active learning for efficient system characterisation.
+
+        Please reach out to collaborate!
     design:
       columns: '1'
   # - block: collection
@@ -54,6 +54,7 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
+    id: papers
     content:
       title: Publications
       text: ""
