@@ -25,7 +25,7 @@ role: PhD Student
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: University of Cambridge
-    # url: https://openai.com/
+    url: 'https://www.eng.cam.ac.uk/'
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -89,10 +89,10 @@ work:
     date_start: 2021-10-01
     date_end: '2022-09-01'
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Designed and maintained ETL data pipelines for government digital services
+      - Worked with cloud infrastructure (AWS) and tooling in an Agile delivery team
+      - Collaborated with cross-functional teams to deliver data products to production
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -105,39 +105,39 @@ work:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: code-bracket
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: circle-stack
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking
-#         description: ''
-#         percent: 60
-#         icon: person-simple-walk
-#       - name: Cats
-#         description: ''
-#         percent: 100
-#         icon: cat
-#       - name: Photography
-#         description: ''
-#         percent: 80
-#         icon: camera
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 95
+        icon: code-bracket
+      - name: Gaussian Processes
+        description: 'GPyTorch / GPflow'
+        percent: 90
+        icon: chart-bar
+      - name: PyTorch
+        description: ''
+        percent: 75
+        icon: cpu-chip
+      - name: MATLAB
+        description: ''
+        percent: 70
+        icon: calculator
+  - name: Tools & Platforms
+    items:
+      - name: Git / GitHub
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: LaTeX
+        description: ''
+        percent: 85
+        icon: document-text
+      - name: Linux / HPC
+        description: ''
+        percent: 75
+        icon: command-line
 
 # languages:
 #   - name: English
